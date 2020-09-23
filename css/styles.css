@@ -1,0 +1,207 @@
+
+/*** Main Styles ***/
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: ivory;
+    color: #333333;
+  }
+
+ .container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  .content-images {
+      max-width: 450px;
+  }
+
+  .col {
+      padding-bottom: 1em;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+
+  /*** Nav Styles ***/
+
+  .main-nav {
+      text-transform: uppercase;
+      list-style-type: none;   
+  }
+  .main-nav li {
+      display: block;
+      padding-left: 20px;
+      padding-right: 20px;
+    }   
+
+.main-nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+  header {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      padding-bottom: 3em;
+  }
+
+  .my-name {
+    font-family: 'Tangerine', serif;
+    font-size: 36px;
+}
+
+  /*** Contact Styles ***/
+  .contact li {
+    list-style-type: none;
+  }
+
+  .contact {
+      padding-top: 30px;
+  }
+
+
+ /*** Footer Styles ***/
+footer {
+border-top: solid lightgray 2px;
+background-color: lightblue;
+padding-right: 1em;
+}
+
+ footer li {
+    display: inline-block;
+ }
+
+ .footer-name {
+     float: left;
+ }
+
+ .footer-top {
+     float: right;
+ }
+
+ .large-nav{
+    display: none;
+}
+
+
+
+ /* =================================
+Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    float: left;
+    width: 50%;    
+    }
+
+    .content-images {
+        width: 80%;
+        max-width: 400px;
+    }
+
+.profile-image {
+    float: right;
+    padding-left: 1em;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+nav {
+    padding-bottom: 2em;
+}
+
+header p {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.skills,
+.contact {
+    padding: 1.5em;
+}
+
+footer {
+    padding-bottom: 1.75em;
+}
+
+.large-nav{
+    display: inline-block;
+    float: right;
+   
+   }
+
+   .large-nav li {
+       padding-right: 5px;      
+        }
+
+.large-nav a {
+    text-decoration: none;
+}
+
+
+.footer-top {
+    display: none;
+}
+
+.footer-name {
+    padding-top: 1em;
+}
+}
+
+@media (min-width: 1024px) {
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    float: left;
+    width: 33.333%;    
+    }
+
+    .my-name {
+        float: left;
+        margin-top: .25em;
+        font-size: 48px;
+    }
+
+.main-nav li {
+        display: inline-block;
+    padding-top: 1em;
+    font-size: 24px;
+       }
+
+       .main-nav {
+           text-align: right;
+       }
+
+footer {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+}
+
+
+ /* =================================
+clearfix
+==================================== */
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
