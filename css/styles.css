@@ -17,11 +17,12 @@ body {
 
   .content-images {
       max-width: 450px;
-  }
+              }
 
   .col {
       padding-bottom: 1em;
-  }
+      
+        }
 
   a:hover {
     color: red;
@@ -104,8 +105,8 @@ Media Queries
 .five,
 .six {
     float: left;
-    width: 50%;    
-    }
+    width: 50%;
+     }
 
     .content-images {
         width: 80%;
@@ -171,7 +172,7 @@ footer {
 .five,
 .six {
     float: left;
-    width: 33.333%;    
+    width: 33.333%;
     }
 
     .my-name {
